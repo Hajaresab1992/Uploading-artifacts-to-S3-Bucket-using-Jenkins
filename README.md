@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Stage-2 , Git clone scm') {
             steps {
-                git branch: 'main', url: 'https://github.com/Aseemakram19/bingo1.git'
+               git branch: 'main', url: 'https://github.com/Hajaresab1992/Uploading-artifacts-to-S3-Bucket-using-Jenkins.git'
             }
         }
         stage('Stage-3 , npm install') {
