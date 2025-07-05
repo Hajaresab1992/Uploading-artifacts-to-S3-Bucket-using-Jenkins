@@ -46,7 +46,7 @@ pipeline {
         stage('Stage-5: Upload Artifact to S3') {
             steps {
                 echo 'Uploading artifact to S3...'
-                s3Upload(
+                s3Upload (
                     consoleLogLevel: 'INFO',
                     dontSetBuildResultOnFailure: false,
                     entries: [[
